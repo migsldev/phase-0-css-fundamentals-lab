@@ -3,3 +3,39 @@ body {
   height: 100%;
   margin: 0;
 }
+
+header {
+  text-align: center; /* update the header to align */
+}
+
+/* using the img element as there is only 1 image */
+img {
+  text-align: center; /*center our image */
+}
+
+nav > a {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: gray;
+}
+
+figcaption {
+  text-align: center;
+}
+
+#featured-property {
+  text-align: center; /*center align the text on the id featured-property*/
+}
+
+#featured-property p { /* setting all the <p>s under the id width less than the img */
+  width: 800px;
+  margin: 20px auto;
+}
+
+#details div { /*make id details section horizontal */
+  float: left;
+  width: 25%;
+  margin-right: 20px auto;
+  text-align: center;
+  background-color: red;
+}
